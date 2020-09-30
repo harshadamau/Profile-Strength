@@ -1,0 +1,301 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open-sans' sans-serif;
+    font-size: 14px;
+    background-color: #f2f4f7;
+}
+
+/* header css */
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header{
+    color: #ffff;
+    background:#fd4f00;
+    padding: 30px;  
+}
+
+h1{
+  margin:auto;
+  font-weight: 800;
+}
+
+/* header css close */
+
+/*jumcotron css */
+
+.jumbotron{
+  background-color:#434c5e!important;
+  max-width: 100%;
+}
+
+p{
+  color: #fff;
+  font-size: 30px;
+}
+
+.img{
+    border-radius: 50%!important;
+    margin-left: 10px;
+}
+
+h2{
+    color: #fff;
+}
+
+/*jumcotron css close */
+
+/*information css  */
+
+h3{
+    padding-top:38px;
+    padding-left: 100px;
+}
+   
+.infocard{
+    background-color: #fff;
+    border:1px solid #e7e9ef;
+    border-color:#fff;
+    height: 150px;
+    position: relative;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    box-shadow: 0 3px 0 #e7e9ef;
+}
+
+.box1{
+    background-color: #ffad8d;
+    width: 100px;
+    height: 115px;
+    position: absolute;
+    border-radius: 100%;
+    left: -76px;
+    top: 24px;
+}
+
+.box2{
+    background-color:#abc3ce;
+    width: 100px;
+    height: 115px;
+    position: absolute;
+    border-radius: 100%;
+    left: -76px;
+    top: 24px;
+}
+
+.box3{
+    background-color:#9ac1a7;
+    width: 100px;
+    height: 115px;
+    position: absolute;
+    border-radius: 100%;
+    left: -76px;
+    top: 24px;
+}
+
+.box4{
+    background-color:#e5bdbd;
+    width: 100px;
+    height: 115px;
+    position: absolute;
+    border-radius: 100%;
+    left: -76px;
+    top: 24px;
+}
+
+.box5{
+    background-color:#c5bbe0;
+    width: 100px;
+    height: 115px;
+    position: absolute;
+    border-radius: 100%;
+    left: -76px;
+    top: 24px;
+}
+
+.box6{
+    background-color: #d6ceb0;
+    width: 100px;
+    height: 115px;
+    position: absolute;
+    border-radius: 100%;
+    left: -76px;
+    top: 24px;
+}
+
+.material-icons{
+    color:#d1d3d4;
+    margin-left: 1000px;
+    font-size: 50px;
+    position: absolute;
+}
+
+.progressline{
+    margin-left:50px;
+}
+
+.progress{
+    width:800px;
+    margin-left:50px;
+    margin-top: 36px;
+}
+
+.progress-bar.bg-1{
+   background-color:#ffad8d;
+}
+
+.progress-bar.bg-2{
+    background-color:#abc3ce;
+}
+
+.progress-bar.bg-3{
+    background-color:#9ac1a7;
+}
+
+.progress-bar.bg-4{
+    background-color:#e5bdbd;
+}
+
+.progress-bar.bg-5{
+    background-color:#c5bbe0;
+}
+
+.progress-bar.bg-6{
+    background-color:#d6ceb0;
+}
+
+/*information css close*/
+
+.skip{
+    margin-left:500px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+/*highchart css */
+
+.highcharts-title{
+    display: none;
+}
+
+.highcharts-background{
+    fill:#434c5e;
+}
+
+.highchart-background h2{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-weight: bold;
+} 
+
+.highcharts-button-symbol, .highcharts-button-box{
+    display: none;
+}
+
+#container {
+    max-width: 660px;
+    margin: auto;
+    height: 400px;
+    margin: 0 auto;
+  }
+
+#container .highcharts-color-0{
+    fill: #666c7a;
+    stroke: none;
+  }
+
+#container .highcharts-color-1{
+    fill: #f26527;
+    stroke: none;
+  }
+
+.text{
+    fill: #fff!important;
+}
+
+.highcharts-text-outline{
+      display: none;
+  }
+
+.highcharts-credits{
+    display: none;
+}
+
+.highcharts-data-label tspan{
+    fill:#fff;
+    font-size: 14px;
+}
+
+/*highchart css close */
+   
+/*media query*/
+
+@media (min-width:320px) and (max-width:767px) {
+
+    h2{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .img{
+        margin-left:45px;
+        margin-bottom: 20px;;
+    }
+
+    .container{
+      padding-left:15px;
+      padding-right: 15px;
+   }
+
+    h3{
+      padding-top:15px;
+      padding-left: 50px;
+      font-size: 18px;
+   }
+
+   .material-icons{
+      color:#d1d3d4;
+      margin-left: 280px;
+      font-size: 30px;
+      position: absolute;
+      margin-top: 20px;
+   }
+
+   .progressline{
+     margin-left: 0px;
+   }
+
+  .progress{
+     width:220px;
+   }
+
+   .skip{
+      margin-left:120px;
+      margin-top:20px;
+      margin-bottom:20px;
+   }
+
+   .highchart-background h2{
+    top: 60%;
+    left: 40%;
+   }
+
+}
+
+
